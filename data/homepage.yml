@@ -1,0 +1,158 @@
+head:
+  title: "Ariane Hayana | Portfólio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Olá, Seja bem-vindo(a)"
+  subtitle: " "
+  description: "Esta página apresenta alguns de meus trabalhos, bem como uma breve apresentação sobre quem sou. Para tanto, o meu repositório no <a target='_blank' href='https://github.com/a-hayana/'>GitHub</a> estará disponível para consulta, bem como o meu <b>e-mail</b> para contato.<br>
+  <br>Elaborado por: <a target='_blank' href='https://github.com/a-hayana/'>Ariane Hayana Thomé de Farias</a>"
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "E-mail"
+    URL: "mailto:ariane.hayana@outlook.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/arianehayana/"
+
+    - icon: "github"
+      URL: "https://github.com/a-hayana"
+
+# about
+about:
+  enable: true
+  title: "Quem sou..."
+  content: 
+    <p class="lead">
+    <strong>Graduanda em Estatística na Universidade Federal
+    do Amazonas (UFAM) e Bacharela em Ciências Econômicas
+    com MBA em Perícia e Auditoria Econômico-Financeira.</strong> 
+    Atualmente cursando o 7º período da graduação e atuando como estagiária no Supremo Tribunal Federal (STF).
+    </p>
+    
+    <p class="lead">
+    <strong>Tenho experiência com relatórios e visualizações de
+    dados utilizando o software estatístico R.</strong> 
+    Durante a graduação realizei estágios que me proporcionaram a
+    aplicação de técnicas estatísticas para ralizar o processamento, análise, manipulação e
+    visualização de conjuntos de dados, atuando, inclusive, na elaboração de questionários
+    para realização de pesquisa de opinião in loco com a população.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Saiba mais"
+    URL: "https://www.linkedin.com/in/arianehayana/"
+  image:
+    x: "img/who-am-i/user.jfif"
+    _2x: "img/who-am-i/user.jfif"
+
+# Experincia
+experience:
+  enable: true
+  title: "Experiências"
+  description: "Atuação como pesquisadora em projetos de pesquisa, sendo co-autora em artigos científicos. Saiba mais em:"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/arianehayana/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Currículo Lattes"
+    URL: "http://lattes.cnpq.br/1519126552256303"
+
+  items:
+    - title: "Estagiária de Estatística"
+      company: "Supremo Tribunal Federal - STF"
+      duration: "Novembro 2021 - Atual"
+
+    - title: "Estagiária de Estatística"
+      company: "Tribunal de Justiça do Estado Amazonas - TJAM"
+      duration: "Dezembro 2020 - Novembro 2021"
+
+    - title: "Estagiária na Divisão de Estatística e Gestão de Informação"
+      company: "Instituto Municipal de Mobilidade Urbana – IMMU"
+      duration: "Setembro 2019 - Maio 2020"
+
+# education
+education:
+  enable: true
+  title: "Formação acadêmica"
+  items:
+    - university: "Bacharelado em Estatística"
+      year: "2018-Atual"
+      degree: "Universidade Federal do Amazonas - UFAM"
+
+    - university: "MBA Perícia e Auditoria Econômico-Financeira"
+      year: "2015-2017"
+      degree: "Instituto de Pós-Graduação e Graduação - IPOG"
+
+      
+    - university: "Bacharelado em Ciências Econômicas"
+      year: "2010-2015"
+      degree: "Universidade Federal do Amazonas - UFAM"
+      
+    - university: "Ensino Médio Integrado ao Técnico em Telecomunicações"
+      year: "2007-2009"
+      degree: "Instituto Federal de Educação, Ciência e Tecnologia do Amazonas - IFAM"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfólio"
+  enable: true
+  
+  works:
+    - title: "Trabalho premiado no curso de Relatórios e Visualização de dados da Curso R"
+      description: "Trabalho de conclusão de curso premiado com bolsa de estudos pela Curso R intitulado Consumo de alimentos e emissões de Co2."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Acesse o relatório"
+        URL: "https://curso-r.github.io/202103-visualizacao/trabalhos_finais/Ariane_Hayana/index.html"
+      image:
+        x: "img/works/ah-relatorio.gif"
+        _2x: "img/works/ah-relatorio.gif"
+      is_even: true
+
+    - title: "Painel da Covid - Região Norte"
+      description: "Aplicativo Shiny apresentado como Trabalho de Conclusão do Curso de Dashboards da Curso R."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Acesse o app"
+        URL: "https://ariane-app.shinyapps.io/Final_Dashboards/"
+      image:
+        x: "img/works/Shiny-Work.jpg"
+        _2x: "img/works/Shiny-Work.jpg"
+      is_even: false
+
+# contact
+contact:
+  enable: true
+  title: "Contato"
+
+  image:
+    x: "img/who-am-i/stats.jpg"
+    _2x: "img/who-am-i/stats.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Envie um e-mail"
+    btnAction: 'mailto:ariane.hayana@outlook.com'
+
+  email:
+    title: "Email"
+    email: '<a href="mailto:ariane.hayana@outlook.com">ariane.hayana@outlook.com</a>'
+  address:
+    title: "Localização"
+    address: "Manaus-Amazonas-Brasil"
+  
+

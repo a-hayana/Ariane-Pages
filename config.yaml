@@ -1,0 +1,49 @@
+baseURL: /
+languageCode: en-us
+theme: raditian-free-hugo-theme-data-science
+params:
+  footer:
+    copyright: © Matt Dancho. All rights reserved.
+  googleAnalyticsID: ''
+  logo:
+    text1: Ariane 
+    text2: Hayana
+  plugins:
+    css:
+      - URL: css/main.css
+      - URL: css/rad-icons.css
+      - URL: css/custom.css
+    js:
+      - URL: js/rad-animations.js
+      - URL: js/sticky-header.js
+      - URL: js/library/fontfaceobserver.js
+  sections:
+    - showcase
+    - about
+    - client-and-work
+    - experience
+    - education
+  #- testimonial
+    - contact
+  # - newsletter
+menu:
+  footer:
+    - URL: '#sobre'
+      name: Sobre
+      weight: 2
+    - URL: '#portfolio'
+      name: Portfólio
+      weight: 3
+    - URL: '#contato'
+      name: Contato
+      weight: 4
+  header:
+    - URL: '#sobre'
+      name: Sobre
+      weight: 2
+    - URL: '#portfolio'
+      name: Portfólio
+      weight: 3
+    - URL: '#contato'
+      name: Contato
+      weight: 4
